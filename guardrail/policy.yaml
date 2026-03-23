@@ -1,1 +1,13 @@
-# Test
+environment: default
+exported_at: '2026-03-23T17:29:35.889913Z'
+policies:
+- actions:
+    custom: warn
+    pii: warn
+    secrets: redact
+  is_default: true
+  mode: enforce
+  name: Default Policy
+  rules: []
+schema_version: 1
+
